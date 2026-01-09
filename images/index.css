@@ -284,6 +284,7 @@ align-items: flex-start;
     background-color: yellow;
     box-shadow: 50px 50px 50px 50px #000;
     color: black;
+    border-radius: 5%;
 }
 .pe-s{
     display: flex;
@@ -391,6 +392,10 @@ h2{
         word-wrap: break-word;
         width: 40vw;
     }
+}
+.backgroundreflectie{
+
+
 }
 .Kernkwadrant{
     h2{

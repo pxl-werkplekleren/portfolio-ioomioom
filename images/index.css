@@ -37,6 +37,11 @@ body {
         font-size: 1.5vw;
     };
 }
+.ik >img:hover{
+
+    box-shadow: 50px 50px 50px 50px #000;
+    color: black;
+}
 .intro-texst{
     display: flex;
     flex-direction: column;
@@ -251,20 +256,34 @@ align-items: flex-start;
 }
 .Voorbeelden-van-activiteiten1{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     gap: 3rem;
  padding-bottom: 2%;
+    ol{
+        padding-bottom: 5%;
+    }
 
 }
 .Voorbeelden-van-activiteiten2{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     gap: 3rem;
     padding-bottom: 2%;
+    ol{
+        padding-bottom: 5%;
+    }
 }
 .Voorbeelden-van-activiteiten3{
     display: flex;
     flex-direction: row;
+    ol{
+        padding-bottom: 5%;
+    }
+}
+.hover:hover{
+    background-color: rgba(253, 0, 0, 0.65);
+    box-shadow: 50px 50px 50px 50px #000;
+    color: black;
 }
 .pe-s{
     display: flex;
@@ -281,6 +300,72 @@ align-items: flex-start;
         font-size: 3rem;
     }
 }
+.scratch{
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 1rem;
+    flex-direction: row;
+}
+.scratch-media > img{
+    height: 55vh;
+}
+.git{
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 1rem;
+    flex-direction: row;
+
+}
+.git-media > img{
+    height: 55vh;
+}
+.planning{
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 1rem;
+    flex-direction: row-reverse;
+}
+.planning-media > img{
+    height: 55vh;
+}
+.Cscharp{
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 1rem;
+    flex-direction: row;
+}
+.Cscharp-media > img{
+    height: 55vh;
+}
+.HTML{
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 1rem;
+    flex-direction: row-reverse;
+}
+.HTML-media > img{
+    height: 55vh;
+}
+.gast{
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 1rem;
+    flex-direction: row;
+}
+.gast-media > img{
+    height: 55vh;
+}
+.CV{
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 1rem;
+    flex-direction: row-reverse;
+}
+.CV-media > img{
+    height: 55vh;
+}
+
+
 .AIM-reflectie-op-WPL1{
 h2{
     font-size: 3rem;

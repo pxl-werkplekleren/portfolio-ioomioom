@@ -308,6 +308,7 @@ align-items: flex-start;
 }
 .scratch-media > img{
     height: 55vh;
+    border-radius: 5%;
 }
 .git{
     display: flex;
@@ -318,6 +319,7 @@ align-items: flex-start;
 }
 .git-media > img{
     height: 55vh;
+    border-radius: 5%;
 }
 .planning{
     display: flex;
@@ -327,6 +329,7 @@ align-items: flex-start;
 }
 .planning-media > img{
     height: 55vh;
+    border-radius: 5%;
 }
 .Cscharp{
     display: flex;
@@ -336,6 +339,7 @@ align-items: flex-start;
 }
 .Cscharp-media > img{
     height: 55vh;
+    border-radius: 5%;
 }
 .HTML{
     display: flex;
@@ -346,6 +350,7 @@ align-items: flex-start;
 .HTML-media > img{
     height: 55vh;
     width: 100vh;
+    border-radius: 5%;
 }
 .gast{
     display: flex;
@@ -355,6 +360,7 @@ align-items: flex-start;
 }
 .gast-media > img{
     height: 55vh;
+    border-radius: 5%;
 }
 .CV{
     display: flex;
@@ -364,6 +370,7 @@ align-items: flex-start;
 }
 .CV-media > img{
     height: 55vh;
+    border-radius: 5%;
 }
 
 

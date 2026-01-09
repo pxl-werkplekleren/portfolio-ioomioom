@@ -2,6 +2,7 @@
     /*padding: 0;
     margin: 0;*/
     box-sizing: border-box;
+cursor: none;
 }
 #computer-dot{
     width: 20px;
@@ -444,28 +445,63 @@ h2{
 }
 .kern-EEN{
     display: flex;
-    justify-content: right;
-    flex-direction: column;
-    align-items: flex-end;
+    flex-wrap: nowrap;
+    gap: 1rem;
+    flex-direction: row-reverse;
+    align-items: center;
     padding: 50px;
+    justify-content: space-around;
 }
-.kern-TWEE{
-    display: flex;
-justify-content: left;
-    flex-direction: column;
-    align-items: start;
-    padding: 50px;
+
+.kern-EEN > img {
+    order: 0;
+    width: 20vw;
+    border-radius: 30%;
 }
+
+    .kern-TWEE{
+        display: flex;
+        flex-wrap: nowrap;
+        gap: 1rem;
+        flex-direction: row;
+        align-items: center;
+        padding: 50px;
+        justify-content: space-around;
+    }
+
+    .kern-TWEE > img {
+        order: 0;
+        width: 20vw;
+        border-radius: 30%;
+    }
 .kern-DRIE{
     display: flex;
-    justify-content: right;
-    flex-direction: column;
-    align-items: flex-end;
+    flex-wrap: nowrap;
+    gap: 1rem;
+    flex-direction: row-reverse;
+    align-items: center;
     padding: 50px;
+    justify-content: space-around;
+}
+
+.kern-DRIE > img {
+    order: 0;
+    width: 20vw;
+    border-radius: 30%;
 }
 .kern-VIER{
     display: flex;
-    justify-content: left;
-    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 1rem;
+    flex-direction: row;
+    align-items: center;
     padding: 50px;
+    justify-content: space-around;
 }
+
+.kern-VIER > img {
+    order: 0;
+    width: 20vw;
+    border-radius: 30%;
+}
+

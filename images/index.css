@@ -172,4 +172,37 @@ body {
     p{
         font-size: 2.5rem;
     }
+    ul{
+        font-size: 2.5rem;
+    }
+
+    h2{
+        font-size: 3rem;
+    }
+}
+.AIM-reflectie-op-WPL1{
+h2{
+    font-size: 3rem;
+}
+    h3{
+        font-size: 2.5rem;
+    }
+    p{
+        font-size: 2.5rem;
+    }
+    display: flex;
+    flex-direction: column;
+}
+.Kernkwadrant{
+    h2{
+        font-size: 3rem;
+    }
+    h3{
+        font-size: 2.5rem;
+    }
+    p{
+        font-size: 2.5rem;
+    }
+    display: flex;
+    flex-direction: column;
 }

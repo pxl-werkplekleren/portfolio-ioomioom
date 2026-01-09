@@ -281,7 +281,7 @@ align-items: flex-start;
     }
 }
 .hover:hover{
-    background-color: rgba(253, 0, 0, 0.65);
+    background-color: yellow;
     box-shadow: 50px 50px 50px 50px #000;
     color: black;
 }
@@ -345,6 +345,7 @@ align-items: flex-start;
 }
 .HTML-media > img{
     height: 55vh;
+    width: 100vh;
 }
 .gast{
     display: flex;
@@ -378,6 +379,11 @@ h2{
     }
     display: flex;
     flex-direction: column;
+    align-items: center;
+    p{
+        word-wrap: break-word;
+        width: 40vw;
+    }
 }
 .Kernkwadrant{
     h2{
@@ -385,10 +391,45 @@ h2{
     }
     h3{
         font-size: 2.5rem;
+
     }
     p{
         font-size: 2.5rem;
+        width: 60rem;
     }
     display: flex;
     flex-direction: column;
+}
+.titel-kern{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+.kern-EEN{
+    display: flex;
+    justify-content: right;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 50px;
+}
+.kern-TWEE{
+    display: flex;
+justify-content: left;
+    flex-direction: column;
+    align-items: start;
+    padding: 50px;
+}
+.kern-DRIE{
+    display: flex;
+    justify-content: right;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 50px;
+}
+.kern-VIER{
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    padding: 50px;
 }

@@ -136,37 +136,45 @@ body {
 }
 .ontwerper{
     display: flex;
-    flex-direction: row;
-    img{
-        width: 20vw;
-        border-radius: 50%;
-    }
+    flex-wrap: nowrap;
+    gap: 1rem;
+    flex-direction: row-reverse;
+    align-items: flex-start;
+    padding: 50px;
+}
+.ontwerper > h2{
+    flex: 0 0  auto;
+    order: 1;
+}
+.ontwerper > ul{
+    order: 0;
+    flex: 1 1 auto;
+}
+.ontwerper > img{
+    order: 2; width: 20vw;
+    border-radius: 50%;
 }
 .programmeur{
     display: flex;
+    flex-wrap: nowrap;
+    gap: 1rem;
     flex-direction: row;
-    padding-top: 5%;
-    img{
-        width: 30vw;
-        height: 50vh;
-        border-radius: 50%;
-    }
-    table{
-        width: 50vw;
-        word-wrap: break-word;
-        th{
-            font-size: 2.5rem;
-            align-items: center;
-        }
-        td {
-
-            font-size: 2.5rem;
-            text-align: center;
-            word-wrap: break-word;
-        }
-
-    }
+    align-items: flex-start;
+    padding: 50px;
 }
+.programmeur > h2{
+    flex: 0 0  auto;
+    order: 0;
+}
+.programmeur > ul{
+    order: 1;
+    flex: 1 1 auto;
+}
+.programmeur > img{
+    order: 2; width: 35vw;
+    border-radius: 50%;
+}
+
 .tester{
     display: flex;
     flex-wrap: nowrap;

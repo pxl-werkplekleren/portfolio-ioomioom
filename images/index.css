@@ -184,7 +184,7 @@ align-items: flex-start;
     flex: 1 1 auto;
 }
 .tester > img{
-    order: 2; width: 20vw;
+    order: 2; width: 60vw;
     border-radius: 50%;
 }
 .teams{
@@ -204,6 +204,26 @@ align-items: flex-start;
     flex: 1 1 auto;
 }
 .teams > img{
+    order: 2; width: 40vw;
+    border-radius: 50%;
+}
+.levenslang-leeren{
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 1rem;
+    flex-direction: row-reverse;
+    align-items: flex-start;
+    padding: 50px;
+}
+.levenslang-leeren > h2{
+    flex: 0 0  auto;
+    order: 1;
+}
+.levenslang-leeren > ul{
+    order: 0;
+    flex: 1 1 auto;
+}
+.levenslang-leeren > img{
     order: 2; width: 20vw;
     border-radius: 50%;
 }

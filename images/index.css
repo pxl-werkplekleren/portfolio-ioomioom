@@ -125,4 +125,28 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+     ul{
+         padding-bottom: 5%;
+     }
+}
+.Voorbeelden-van-activiteiten{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Voorbeelden-van-activiteiten1{
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+ padding-bottom: 2%;
+}
+.Voorbeelden-van-activiteiten2{
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+    padding-bottom: 2%;
+}
+.Voorbeelden-van-activiteiten3{
+    display: flex;
+    flex-direction: row;
 }

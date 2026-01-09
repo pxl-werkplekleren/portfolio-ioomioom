@@ -3,6 +3,28 @@
     margin: 0;*/
     box-sizing: border-box;
 }
+#computer-dot{
+    width: 20px;
+    height: 20px;
+    background-color: yellow;
+    border-radius: 50%;
+    position: fixed;
+    pointer-events: none;
+    top: 0;
+    left: 0;
+    transform: translate(-50%, -50%);
+}
+.particle{
+    position: fixed;
+    width: 6px;
+    height: 6px;
+    background-color: yellow;
+    border-radius: 50%;
+    pointer-events: none;
+    opacity: 1;
+    animation: particle-fade 0.8s linear forwards;
+}
+
 
 body {
     font-family: "Roboto", sans-serif;
@@ -394,8 +416,10 @@ h2{
     }
 }
 .backgroundreflectie{
-
-
+    img{
+        height: 20vh;
+        width: 30vw;
+    }
 }
 .Kernkwadrant{
     h2{

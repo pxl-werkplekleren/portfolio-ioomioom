@@ -10,6 +10,9 @@
     <link rel="stylesheet" href="images/index.css">
 </head>
 <body>
+<div id="computer-dot">
+    <!--<img src="images/banner.png" alt="banner"/>-->
+</div>
 <div class="ik">
 <h1>De Reyck Valentijn</h1>
 <img src="images/Schermafbeelding%202025-12-01%20205657.png" alt="profiel foto">
@@ -760,3 +763,41 @@
 <div class=""></div>
 </body>
 </html>
+<script>
+    const dot = document.getElementById("computer-dot");
+    document.addEventListener("mousemove",(e) => {
+        dot.style.left = e.clientX + "px";
+        dot.style.top = e.clientY + "px";
+        createParticle(e.clientX, e.clientY);
+    });
+    function createParticle(x, y) {
+        const  particle = document.createElement("div");
+        particle.className = "particle";
+
+        particle.style.left = x + "px";
+        particle.style.top = y + "px";
+
+        const angle = Math.random() * 2 *Math.PI;
+        const distance = Math.random() *30;
+
+        particle.style.transform =`
+        translate(
+            ${Math.cos(angle) * distance}px,
+            ${Math.sin(angle) * distance}px
+        )
+    `;
+        document.body.appendChild(particle);
+
+        setTimeout(() => {
+            particle.remove();
+        }, 800);
+    }
+    let slideIndex = 1;
+    showSlides(slideIndex);
+    function plusSlides(n) {
+        showSlides(slideIndex += n);
+    }
+    function currentSlide(n) {
+        showSlides(slideIndex = n);
+    }
+</script>
